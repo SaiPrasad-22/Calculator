@@ -70,3 +70,12 @@ button:active {
     color: orange;
     font-weight: 800px;
 }
+
+/* Media Queries for Small Screens */
+
+/* @media (max-width: 440px) {
+    .calculator {
+        width: 80vw;
+        height: auto;
+    }
+} */
