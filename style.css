@@ -1,81 +1,162 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
 }
 
 body {
-    min-width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(45deg, black, #3a4452);
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, black, #3a4452);
 }
 
 .calculator {
-    padding: 15px;
-    box-shadow: -5px 0 15px #000;
-    border: 1px solid rgb(116, 114, 114);
-    border-radius: 15px;
+  padding: 15px;
+  box-shadow: -5px 0 15px #000;
+  border: 1px solid rgb(116, 114, 114);
+  border-radius: 15px;
 }
 
 .display input {
-    width: 360px;
-    border: none;
-    outline: none;
-    padding: 20px;
-    background-color: transparent;
-    color: white;
-    font-size: 50px;
-    font-weight: 600;
-    text-align: right;
-    cursor: pointer;
+  width: 360px;
+  border: none;
+  outline: none;
+  padding: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: right;
+  cursor: pointer;
 }
 
 input ::placeholder {
-    color: white;
+  color: white;
 }
 
 button {
-    width: 65px;
-    height: 65px;
-    margin: 10px;
-    background-color: transparent;
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-    border: 0;
-    border-radius: 50%;
-    box-shadow: -5px -5px 15px black;
-    outline: 1px solid #313131;
-    cursor: pointer;
+  width: 65px;
+  height: 65px;
+  margin: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: -5px -5px 15px black;
+  outline: 1px solid #313131;
+  cursor: pointer;
 }
 
 button:active {
-    background-color: #000;
-    transform: translate(2px, 2px);
+  background-color: #000;
+  transform: translate(2px, 2px);
 }
 
 .operator {
-    font-size: 22px;
-    color: orange;
-    font-weight: 800px;
+  font-size: 22px;
+  color: orange;
+  font-weight: 800px;
 }
 
 .equalBtn {
-    font-size: 22px;
-    color: orange;
-    font-weight: 800px;
+  font-size: 22px;
+  color: orange;
+  font-weight: 800px;
 }
 
 /* Media Queries for Small Screens */
 
-/* @media (max-width: 440px) {
-    .calculator {
-        width: 80vw;
-        height: auto;
-    }
-} */
+@media (max-width: 560px) {
+  .calculator {
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .display input {
+    width: 90%;
+    font-size: 45px;
+  }
+
+  button,
+  .operator,
+  .equalBtn {
+    width: 55px;
+    height: 55px;
+    font-size: 1em;
+    margin: 5px;
+  }
+}
+@media (max-width: 514px) {
+  .calculator {
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .display input {
+    width: 80%;
+    font-size: 40px;
+  }
+
+  button,
+  .operator,
+  .equalBtn {
+    width: 50px;
+    height: 50px;
+    font-size: 0.8em;
+    margin: 4px;
+  }
+}
+@media (max-width: 470px) {
+  .calculator {
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .display input {
+    width: 70%;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  button,
+  .operator,
+  .equalBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 0.6em;
+    margin: 3px;
+  }
+}
+@media (max-width: 425px) {
+  .calculator {
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .display input {
+    width: 60%;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  button,
+  .operator,
+  .equalBtn {
+    width: 35px;
+    height: 35px;
+    font-size: 0.5em;
+    margin: 2px;
+  }
+}
