@@ -116,9 +116,9 @@ button:active {
     margin: 5px;
   }
 }
-@media (max-width: 470px) {
+@media (max-width: 480px) {
   .calculator {
-    width: 80%;
+    width: 60%;
     justify-content: center;
     text-align: center;
   }
@@ -140,7 +140,7 @@ button:active {
 }
 @media (max-width: 425px) {
   .calculator {
-    width: 80%;
+    width: 60%;
     justify-content: center;
     text-align: center;
   }
@@ -158,5 +158,28 @@ button:active {
     height: 35px;
     font-size: 0.5em;
     margin: 5px;
+  }
+}
+
+@media (max-width: 380px) {
+  .calculator {
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .display input {
+    width: 70%;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  button,
+  .operator,
+  .equalBtn {
+    width: 30px;
+    height: 30px;
+    font-size: 0.4em;
+    margin: 4px;
   }
 }
