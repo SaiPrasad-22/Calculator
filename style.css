@@ -170,7 +170,7 @@ button:active {
 
   .display input {
     width: 70%;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
   }
 
@@ -181,5 +181,27 @@ button:active {
     height: 30px;
     font-size: 0.4em;
     margin: 4px;
+  }
+}
+@media (max-width: 334px) {
+  .calculator {
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .display input {
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  button,
+  .operator,
+  .equalBtn {
+    width: 25px;
+    height: 25px;
+    font-size: 0.3em;
+    margin: 3px;
   }
 }
