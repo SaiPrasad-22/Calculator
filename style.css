@@ -183,7 +183,7 @@ button:active {
     margin: 5px;
   }
 }
-@media (max-width: 334px) {
+@media (max-width: 348px) {
   .calculator {
     width: 60%;
     justify-content: center;
