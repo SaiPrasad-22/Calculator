@@ -113,7 +113,7 @@ button:active {
     width: 50px;
     height: 50px;
     font-size: 0.8em;
-    margin: 4px;
+    margin: 5px;
   }
 }
 @media (max-width: 470px) {
@@ -135,7 +135,7 @@ button:active {
     width: 40px;
     height: 40px;
     font-size: 0.6em;
-    margin: 3px;
+    margin: 5px;
   }
 }
 @media (max-width: 425px) {
@@ -157,6 +157,6 @@ button:active {
     width: 35px;
     height: 35px;
     font-size: 0.5em;
-    margin: 2px;
+    margin: 5px;
   }
 }
