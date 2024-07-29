@@ -112,7 +112,7 @@ button:active {
   .equalBtn {
     width: 50px;
     height: 50px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin: 5px;
   }
 }
@@ -134,7 +134,7 @@ button:active {
   .equalBtn {
     width: 40px;
     height: 40px;
-    font-size: 0.6em;
+    font-size: 0.8em;
     margin: 5px;
   }
 }
@@ -147,7 +147,7 @@ button:active {
 
   .display input {
     width: 60%;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
   }
 
@@ -156,7 +156,7 @@ button:active {
   .equalBtn {
     width: 35px;
     height: 35px;
-    font-size: 0.5em;
+    font-size: 0.7em;
     margin: 5px;
   }
 }
@@ -170,16 +170,16 @@ button:active {
 
   .display input {
     width: 70%;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
   }
 
   button,
   .operator,
   .equalBtn {
-    width: 30px;
-    height: 30px;
-    font-size: 0.4em;
+    width: 35px;
+    height: 35px;
+    font-size: 0.7em;
     margin: 4px;
   }
 }
@@ -192,16 +192,16 @@ button:active {
 
   .display input {
     width: 70%;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
   }
 
   button,
   .operator,
   .equalBtn {
-    width: 30px;
-    height: 30px;
-    font-size: 0.4em;
+    width: 35px;
+    height: 35px;
+    font-size: 0.7em;
     margin: 4px;
   }
 }
